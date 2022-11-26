@@ -1,0 +1,21 @@
+asgiref==3.5.2
+Django==4.1
+django-cors-headers==3.13.0
+djangorestframework==3.13.1
+pytz==2022.2.1
+sqlparse==0.4.2
+tzdata==2022.1
+
+
+# Vehicule.objects.create(marque="RENAULT", modele="CLIO", kilometrage=90000, prixjournalier=15, statut="DISPONIBLE")
+# Vehicule.objects.create(marque="PEUGEOT", modele="308", kilometrage=60000, prixjournalier=35, statut="DISPONIBLE")
+# Vehicule.objects.create(marque="CITROEN", modele="C3", kilometrage=100000, prixjournalier=25, statut="DISPONIBLE")
+# Vehicule.objects.create(marque="VOLKSWAGEN", modele="GOLF", kilometrage=80000, prixjournalier=20, statut="DISPONIBLE")
+# Vehicule.objects.create(marque="MERCEDES", modele="CLASSE A", kilometrage=50000, prixjournalier=50, statut="DISPONIBLE")
+# Vehicule.objects.create(marque="BMW", modele="SERIE 1", kilometrage=70000, prixjournalier=40, statut="DISPONIBLE")
+# Vehicule.objects.create(marque="AUDI", modele="A3", kilometrage=40000, prixjournalier=45, statut="DISPONIBLE")
+# Conducteur.objects.create(nom="DUPONT", prenom="Jean", dateNaissance="1990-01-01", login="jdupont", password="jdupont", civilite="M")
+# Conducteur.objects.create(nom="DURAND", prenom="Marie", dateNaissance="1990-07-01", login="mdurand", password="mdurand", civilite="MME")
+# Conducteur.objects.create(nom="MARTIN", prenom="Pierre", dateNaissance="1970-01-01", login="pdupont", password="pdupont", civilite="M")
+# Conducteur.objects.create(nom="DOE", prenom="Paul", dateNaissance="1980-01-01", login="pdurand", password="pdurand", civilite="M")
+# Administrateur.objects.create(nom="ADMIN", prenom="Admin", dateNaissance="1990-01-01", login="admin-garage", password="Ynovgarage", civilite="M")
